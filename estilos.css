@@ -1,0 +1,191 @@
+html,
+body {
+    height: 100%;
+}
+
+#cabecalho {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#cabecalhopink {
+    background-color: #dd8f9c;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}   
+
+#imgCabecalho img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#menuCabecalho a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 0.5px;
+}
+
+#menuCabecalho a:hover {
+    text-decoration: underline;
+}
+
+#imgCorpo img {
+    width: 350px;
+    float: left;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#textoCorpo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-left: 20px;
+    text-align: justify;
+    background-color: #000000;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 0.2%;
+}
+
+.carousel img {
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    font-family: 'Quicksand';
+}
+
+#TextoWiki {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-left: 20px;
+    text-align: justify;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 18px;
+    border-radius: 6px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);
+     border: 1px solid rgb(0, 0, 0);
+    padding: 18px;
+    border-radius: 6px;
+    background-color: #ffffff
+}
+
+.cards .card{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .card .card-body{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .card .card-img-top{
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Alinha os cards na mesma linha e adiciona margem entre eles */
+.cards-row{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.cards-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+/* Alinhamento específico para os cards dentro de TextoWikiPink (flex row) */
+#TextoWikiPink{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+#TextoWikiPink > .card{
+    margin: 12px;
+}
+
+#TextoWikiPink > .card .card-img-top{
+    height: 140px;
+    object-fit: cover;
+}
+
+#rodapePink {
+    background-color: #dd8f9c;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: auto;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#rodape {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: auto;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#rodape p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+body {
+    background-color: #000000 !important;
+    display: flex;
+    flex-direction: column;
+}
